@@ -12,10 +12,14 @@ function sayHi() {
 
 // }
 // card.addEventListener("click",Cloner
-
+let count = 2;
 function Cloner2() {
+    
     const newCard = document.createElement("div");
+    newCard.innerText = count;
     newCard.classList.add('card')
+    count++;
+  
     console.log(newCard)
     document.body.appendChild(newCard)
 }

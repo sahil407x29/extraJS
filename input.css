@@ -1,0 +1,25 @@
+#sample-card{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+  height: 150px;
+  width: 150px;
+  background-color: brown;
+  font-size: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
