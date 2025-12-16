@@ -9,6 +9,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 3rem;
+    flex-wrap: wrap;
 }
 
 
@@ -23,3 +25,26 @@
   flex-wrap: wrap;
 }
 
+.pink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hotpink;
+  height: 300px;
+  width: 300px;
+}
+
+.green {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  height: 200px;
+  width: 200px;
+}
+
+.blue {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+}

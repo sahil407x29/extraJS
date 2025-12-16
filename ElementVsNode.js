@@ -14,7 +14,7 @@
 
 // Document Node (the root document itself)
 
-// Every node has a nodeType property:
+// Every node has a nodeType property:  
 
 // Element = 1
 
@@ -22,7 +22,7 @@
 
 // Text = 3
 
-// Comment = 8
+// Comment = 8     
 
 // Document = 9
 

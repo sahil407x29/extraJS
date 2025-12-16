@@ -1,6 +1,7 @@
 const colors = ["red","yellow","blue","crimsonRed"]
 // const [color1,color2,color3] = colors;
-// const[,,color3] = colors;
+// console.log(color2)
+const[,,color3] = colors;
 // console.log(color3)
 
 const user = {
@@ -37,14 +38,14 @@ const user = {
 // array is an object so it can also be destructured like an object
 
 // destructuring a function
-// function intro ({age}){
-//     console.log(age)
+// function intro ({address : {city}}){
+//     console.log(city)
 // }
 
 // intro(user)
 
-function arr([a]){
-    console.log(a)
+function arr([a,b]){
+    console.log(a,b)
 }
 
 arr(colors)

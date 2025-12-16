@@ -18,11 +18,11 @@ let form = document.querySelector("[data-form]")
 //             Paragraph.textContent = e.target.value;
 //         })
 
-userInput.addEventListener("change", (e) =>
-{
-    console.log(e.target.value)
-    inputValue= e.target.value
-})
+// userInput.addEventListener("change", (e) =>
+// {
+//     console.log(e.target.value)
+//     inputValue= e.target.value
+// })
 
 // userInput.addEventListener("focus",(e)=>
 // {
@@ -33,17 +33,15 @@ userInput.addEventListener("change", (e) =>
 //     console.log(e);
 // })
 
-// form.addEventListener('click',(e)=>
+// form.addEventListener('submit',(e)=>
 // {
 //     e.preventDefault();
 //     console.log("no submitting allowed")
 // })
  
-form.addEventListener("submit",(e) => {
-    e.preventDefault()
-    const myFormData = new FormData(form)
-    // console.log(myFormData)
-    for(const p of myFormData.entries()){
-        console.log(p)
-    }
-})
+// form.addEventListener('submit',(e)=> {
+//     const myForm = new FormData(form)
+//     for(data of myForm) {
+//         console.log(data)
+//     }
+// })

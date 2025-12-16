@@ -4,19 +4,19 @@ const card = document.querySelector('.card')
 function sayHi() {
     console.log('hiii');
 }
-// card.addEventListener("click",sayHi)
-// h1.onclick = sayHi
-// function Cloner(){
-//     const cloned = card.cloneNode();
-//     document.body.appendChild(cloned);
+card.addEventListener("click",sayHi)
+h1.onclick = sayHi
+function Cloner(){
+    const cloned = card.cloneNode();
+    document.body.appendChild(cloned);
 
-// }
-// card.addEventListener("click",Cloner
+}
+
+// card.addEventListener("click",Cloner)
 let count = 2;
 function Cloner2() {
-    
-    const newCard = document.createElement("div");
-    newCard.innerText = count;
+    const newCard = document.createElement('div')
+    newCard.innerText = count
     newCard.classList.add('card')
     count++;
   
@@ -25,4 +25,5 @@ function Cloner2() {
 }
 
 card.addEventListener("click",Cloner2)
-})
+}
+)
